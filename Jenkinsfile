@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('teststage') {
       steps {
-        sh 'echo "Test OK"'
+        sh 'npm install'
+        sh 'npm run start'
       }
     }
   }
