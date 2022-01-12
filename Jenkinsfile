@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('stage1') {
+    stage('teststage') {
       steps {
-        bat 'npm install'
-        bat 'npm run start'
+        sh 'echo "Test OK"'
       }
     }
   }
