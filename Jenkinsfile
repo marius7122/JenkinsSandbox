@@ -4,7 +4,7 @@ pipeline {
     stage('teststage') {
       steps {
         sh 'npm install'
-        sh 'npm run start'
+        sh 'echo "new version v0.1"'
       }
     }
   }
