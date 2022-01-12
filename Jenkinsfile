@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        bat 'echo "Hello"'
+        bat 'npm run start'
       }
     }
   }
